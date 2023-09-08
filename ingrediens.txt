@@ -72,13 +72,19 @@ Efterår
 
 <h2>Kantarel</h2>
 <h3>Beskrivelse</h3>
+<p>Hvis nogen med kalder kantareller for skovbundens guld eller ser dem som svampenes konge, så er de ikke helt galt på den. Almindelig kantarel er nemlig den mest eftertragtede svamp i Danmark. Almindelig kantarel er en flot, gulligt orange svamp med en hat på mellem tre og ti cm i diameter. Stokken er op til et par centimeter tyk og ikke mere end otte cm høj. Hatten er fast og ofte fedtet med en bølget kant. Almindelig kantarel starter med at være rund i hatten, men senere bliver den mere og mere ujævn og nedtrykket i midten.</p>
 <h3>Sankning</h3>
+<p>Selve stokken spidser ofte til ned mod jorden, så man vrider derfor forsigtigt kantarellerne løs ved foden og skærer det nederste stykke af.</p>
 <h3>Lugt & smag</h3>
+<p>Almindelig kantarel har en peberagtigt skarp og lidt syrlig smag. Bitterheden forsvinder når man varmer den op. Dens kød er fast og fibret. Derudover har den en stærk duft af abrikos.</p>
 
-<h2>Brun skelrørhat</h2>
+<h2>Brunstokket rørhat</h2>
 <h3>Beskrivelse</h3>
+<p>Brunstokket rørhat er en meget populær spisesvamp med flot, nøddebrun hat og lysebrun stok, som trives i det sure mørke jord under tunge nåletræer. Med sin halvkugleformede, chokoladebrune hat og grønlige rør er brunstokket rørhat til at genkende. Selve stokken er brunstribet, men lysere end oversiden af hatten. Brunstokket rørhat bliver op til 15 cm høj med en diameter på hatten på 12 cm. Når du skærer svampen igennem eller trykker på rørenderne, vil du lægge mærke til, at kødet bliver lidt blåligt.</p>
 <h3>Sankning</h3>
+<p>Skær svampen af en centimeter over jorden og børst det værste jord af med en lille børste. Snegle og orme er ret vilde med brunstokket rørhat, så tjek efter hvor du har skåret, om svampen er angrebet af dyr, eller om kødet er pænt og ensartet. Normalt er det kun stokken og den midterste del af hatten, der er angrebet af orm.</p>
 <h3>Lugt & smag</h3>
+<p>Brunstokket rørhat har en klassisk, let nøddeagtig svampesmag. Kødet er fast, men mere blødt og svampet hos ældre svampe. Yngre brunstokket rørhatte dufter lidt frugtagtigt, mens ældre svampe har en mere jordagtig smag.</p>
 
 
 
@@ -89,15 +95,24 @@ Vinter
 
 <h2>Strandbede</h2>
 <h3>Beskrivelse</h3>
+<p>Strandbede har været brugt til madlavning i Danmark i næsten 7.000 år - og det er med god grund, for den er en af strandens lækreste urter. I sit første leveår bliver strandbede ikke særlig stor, men vokser i det, man kalder en roset; en lille, udspredt buket. Andet år vokser strandbede i vejret, sætter mange blade og bliver mere busket i udseendet. Den bliver op til halvanden meter høj med skinnende, kødfulde blade, der ligner frisk spinat.</p>
 <h3>Sankning</h3>
+<p>Strandbede kan nogle steder findes i ret store mængder, så der kan du godt plukke en del. Pluk de nye blade først på sæsonen, senere de store blade.</p>
 <h3>Lugt & smag</h3>
+<p>Rå strandbede smager let saltet med en smule syrlighed og smag af sennep og karse. De unge blade kan også have smagsnoter af lakrids. Tilberedt smager strandbede som spinat. Der er ingen speciel duft ved strandbede.</p>
 
 <h2>Salturt</h2>
 <h3>Beskrivelse</h3>
+<p>Almindelig salturt ligner en lille, blød kaktus uden torne, der fordeler sig ud i mange små stængler. Stænglerne er runde, kødfulde og saftige og forgrener sig to og to overfor hinanden. Planten bliver omkring 30 cm høj og kan skifte i farven fra lysegrøn til rødlig. I løbet at sæsonen bliver salturt større og mere træ-agtig.</p>
 <h3>Sankning</h3>
+<p>Klip eller skær den øverste halvdel af planten - så kan den nemlig vokse videre efter dit besøg. Når de senere på sæsonen bliver mere træ-agtige, er det nærmere den øverste tredjedel, du skal gå efter. Salturt står i løst jord, så du kommer let til at hive hele planten op med rod, hvis du forsøger at plukke den - lad være med det.</p>
 <h3>Lugt & smag</h3>
+<p>Salturt er sprød og saftig i munden. I løbet af sæsonen udvikler den nederste del af planten en tråd med mange fibre i midten, der går længere og længere op i planten, jo ældre den bliver. Der er ingen speciel duft ved salturt.</p>
 
 <h2>Strandsennep</h2>
 <h3>Beskrivelse</h3>
+<p>Strandsennep er en strandurt, med en særlig sennepssmag og et saftigt bid. Den kan både bruges til fiskeretter og der, hvor du ellers ville bruge sennep. Det er en grøn plante på op til 50 cm, der ligner kraftigt dild med små, lyserøde blomster. Stænglerne er glatte og runde. De ser saftige og lækre ud med små rucola-lignende blade øverst.</p>
 <h3>Sankning</h3>
+<p>Når du skal plukke strandsennep, skal du gå efter de yngre, blødere og saftige dele. De mere fibrede dele på større planter er ikke lækre. Sørg for ikke at hive planten op med rod - det er bedst at klippe strandsennep over og tage lidt fra hver plante.</p>
 <h3>Lugt & smag</h3>
+<p>Strandsennep har smag af peberrod og rucola med en klar sødme. Stænglerne er sprøde og saftige. Selve planten har ikke nogen særlig duft, men hvis du knuser dele af stænglen, kan du dufte en mild duft af peberrod.</p>
