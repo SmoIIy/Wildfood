@@ -1,33 +1,4 @@
-      footer {
-  background-color: #eddcb6;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;
-  margin: 0;
-  font-size: 14px;
-  color: #654c13;
-  line-height: 1.4;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-}
-
-.content {
-  flex-grow: 1;
-}
-
-          <p>Underside udarbejdet af</p>
-      <p>Ellen, Janus, Kamilla, Krestine & Mathilde</p>
-      <p>2. semester Multimediedesign KEA</p>
-      <p>2023</p>  
-      
-      
+    
       
       <h1>Forår</h1>
       <h2>Tang</h2>
