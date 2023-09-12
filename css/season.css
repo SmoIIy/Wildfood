@@ -1,42 +1,37 @@
-  header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: right;
-        }
-
- main {
-            padding: 20px;
-        }
 
 
-nav {
-        display: flex;
-            justify-content: flex-end;
-        }
-nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
 
-.category-box {
-            border: 1px solid #333;
-            padding: 10px;
-            margin: 10px;
-            display: inline-block;
-        }
  .ingrediens-box {
-            border: 1px solid #333;
-            padding: 10px;
+            border: 2px solid #654C13;
+         border-radius: 20px;
+         padding-bottom: 40px;
             margin: 10px;
             display: inline-block;
             cursor: pointer;
         }
+ img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+ }
+
+ .knap {
+    background-color: #EDDCB6;
+    color: #654C13;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 30px;
+ }
+
+ .knap:hover {
+    background-color: #654C13;
+    color: #EDDCB6;
+ }
 
 /*** Grid ***/
 
-.ingrediens-box {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
    
