@@ -25,7 +25,7 @@
         har plukket dem, skyller du med det samme af i havvandet. Hvis der er
         brug for at rense tangen en gang til, når du kommer hjem, så lav en
         balje med vand og havsalt og skyl tangen godt igennem.
-      </p>
+      </p> 
       <p>
         Du skal kun plukke levende tang, der sidder fast på sten under vandet,
         og ikke løs tang der flyder i vandet, dette er nemlig dødt og kan være
