@@ -6,6 +6,7 @@
     <title>Ingrediens</title>
     <link rel="icon" type="image/png" href="billeder/vm_favicon.png" />
     <link rel="stylesheet" href="css/ingrediens.css" />
+    <link rel="stylesheet" href="css/style.css">
     <script defer src="js/ingrediens.js"></script>
   </head>
   <body>
@@ -37,10 +38,25 @@
       <main></main>
     </div>
     <footer>
-      <p>Underside udarbejdet af</p>
-      <p>Ellen, Janus, Kamilla, Krestine & Mathilde</p>
-      <p>2. semester Multimediedesign KEA</p>
-      <p>2023</p>
+        <div class="footer-left">
+          <p>Underside udarbejdet af</p>
+          <p>Ellen, Janus, Kamilla, Krestine & Mathilde</p>
+          <p>2. semester - Multimediedesign KEA</p>
+          <p>2023</p>
+        </div>
+        <div class="footer-right">
+          <form name="form" action="" id="form">
+            <label for="input" class="input-label">Spørgsmål? </label>
+              
+            <input type="text" name="input" id="input" placeholder="Dit spørgsmål..">
+            <label class="input-label" for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Din email..">
+             <input type="button" value="Send">
+           
+            
+          </form>
+        </div>
+        
     </footer>
   </body>
 </html>
