@@ -1,7 +1,30 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #F7EFDE;
 }
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #654C13;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+     color: #654C13;
+}
+
+h2 {
+    font-size: 20px;
+     color: #654C13;
+}
+
 /*Header*/
 header {
     width: 100%;
