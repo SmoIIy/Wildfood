@@ -36,7 +36,7 @@ function showData(items) {
     const contentTemplate = document.querySelector("#season-text").content;
     const contentCopy = contentTemplate.cloneNode(true);
     contentCopy.querySelector(".season-text-p").innerHTML = item.aarstid_text;
-  
+    contentCopy.querySelector(".season-content-right-img").src = item.aarstid_icon;
     const contentParent = document.querySelector(".season-content");
     contentParent.appendChild(contentCopy);
     }
