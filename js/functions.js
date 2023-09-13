@@ -23,7 +23,17 @@ function showData(items) {
     items.forEach(showItem);
     
 }
-
+function checkSeason(season){
+    if (season == "foraar") {
+        document.querySelector("#navblomst").classList.add(".saturate")
+    } else if(season == "sommer"){
+        document.querySelector("#navsol").classList.add(".saturate")
+    } else if(season == "efteraar"){
+        document.querySelector("#navblad").classList.add(".saturate")
+    } else {
+        document.querySelector("#navsnefnug").classList.add(".saturate")
+    }
+}
 
 // function showItem(item){
 //     console.log("item");

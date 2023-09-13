@@ -23,6 +23,18 @@ function showData(items) {
     items.forEach(showItem);
     
 }
+//highlight nav bar - sorry hvem end der skal læse
+function checkSeason(season){
+    if (season == "foraar") {
+        document.querySelector("#navblomst").style.filter = "saturate(100%)";
+    } else if(season == "sommer"){
+        document.querySelector("#navsol").style.filter = "saturate(100%)";
+    } else if(season == "efteraar"){
+        document.querySelector("#navblad").style.filter = "saturate(100%)";
+    } else {
+        document.querySelector("#navsnefnug").style.filter = "saturate(100%)";
+    }
+  }
 
 function showItem(item){
     //fyld content til main ingrediens
@@ -33,6 +45,8 @@ function showItem(item){
     const parent = document.querySelector(".ingrediens-content");
     parent.appendChild(copy);
 
+
+    checkSeason(item.aarstid);
     //Udfyld opskrifter
     //jeg ku ikk finde på en bedre måde at gøre det på, im sorry
     const opskriftTemplate = document.querySelector("#opskrifter-template").content;

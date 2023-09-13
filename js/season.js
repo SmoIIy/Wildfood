@@ -24,7 +24,18 @@ function showData(items) {
     items.forEach(showItem);
 }
 
-
+//highlight nav bar - sorry hvem end der skal læse
+function checkSeason(season){
+  if (season == "foraar") {
+      document.querySelector("#navblomst").style.filter = "saturate(100%)";
+  } else if(season == "sommer"){
+      document.querySelector("#navsol").style.filter = "saturate(100%)";
+  } else if(season == "efteraar"){
+      document.querySelector("#navblad").style.filter = "saturate(100%)";
+  } else {
+      document.querySelector("#navsnefnug").style.filter = "saturate(100%)";
+  }
+}
 
 
  function showItem(item){
@@ -41,7 +52,7 @@ function showData(items) {
     contentParent.appendChild(contentCopy);
     }
     
-    
+    checkSeason(item.aarstid);
 
         
     //generate cards
