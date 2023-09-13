@@ -43,7 +43,7 @@
     border-radius: 18px;
  }
 
- .knap {
+ .ingrediens-knap {
    margin: 5px;
     background-color: #654C13;
     color: #EDDCB6;
@@ -54,7 +54,7 @@
 
  }
 
- .knap:hover {
+ .ingrediens-knap:hover {
     background-color: #3e2f0c;
     color: #EDDCB6;
  }

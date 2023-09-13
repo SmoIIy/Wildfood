@@ -1,0 +1,46 @@
+.ingrediens-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+ }
+
+ .ingrediens-content-left {
+    padding: 5%;
+ }
+ .ingrediens-content-right {
+    padding: 5%;
+ }
+ 
+ .opskrifter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+ }
+ .opskrift-card {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .opskrift-link {
+    width: 50%;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #654C13;
+    color: #eddcb6;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 400ms ease;
+ }
+ .opskrift-link:hover {
+    width: 95%;
+    background-color: #3e2f0c;
+ }
+ 

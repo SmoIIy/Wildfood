@@ -50,6 +50,7 @@ function showData(items) {
     copy.querySelector(".ingrediens-title").textContent = item.title;
     copy.querySelector(".ingrediens-img").src = item.profile_image_src;
     copy.querySelector(".ingrediens-text").textContent = item.text_thumbnail;
+    copy.querySelector(".ingrediens-knap").href = "ingrediens.html?title=" + item.title;
 
     const parent = document.querySelector(".grid-container");
     parent.appendChild(copy);
