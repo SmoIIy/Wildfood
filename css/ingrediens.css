@@ -24,9 +24,14 @@ img {
  }
  .opskrift-card {
     padding: 5%;
+    height: 55vh;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
+ }
+ .opskrift-card h2 {
+    font-size: 1vw
  }
  .opskrift-link {
     width: 50%;
