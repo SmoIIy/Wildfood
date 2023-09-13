@@ -10,31 +10,30 @@
     <script defer src="js/season.js"></script>
   </head>
   <body>
-    
-      <header>
-        <nav class="header-navbar">
-          <div class="nav-logo-container">
-            <a href="kategori.html" class="nav-logo">
-              <img src="/billeder/vm_logo.webp" alt="Home" />
-            </a>
-          </div>
-          <div class="nav-nav">
-            <a href="ingredienser.html?seasons=foraar" class="nav-nav-link"
-              ><img src="billeder/blomst_firkant.svg" alt="blomst" /> Forår</a
-            >
-            <a href="ingredienser.html?seasons=summer" class="nav-nav-link"
-              ><img src="billeder/sol_firkant.svg" alt="sol" />Sommer</a
-            >
-            <a href="ingredienser.html?seasons=efteraar" class="nav-nav-link"
-              ><img src="billeder/blad_firkant.svg" alt="blad" />Efterår</a
-            >
-            <a href="ingredienser.html?seasons=vinter" class="nav-nav-link"
-              ><img src="billeder/snefnug_firkant.svg" alt="snefnug" />
-              Vinter</a
-            >
-          </div>
-        </nav>
-      </header>
+    <header>
+      <nav class="header-navbar">
+        <div class="nav-logo-container">
+          <a href="kategori.html" class="nav-logo">
+            <img src="../billeder/vm_logo.webp" alt="Home" />
+          </a>
+        </div>
+        <div class="nav-nav">
+          <a href="season.html?seasons=foraar" class="nav-nav-link"
+            ><img src="../billeder/blomst_firkant.svg" alt="blomst" /> Forår</a
+          >
+          <a href="season.html?seasons=summer" class="nav-nav-link"
+            ><img src="../billeder/sol_firkant.svg" alt="sol" />Sommer</a
+          >
+          <a href="season.html?seasons=efteraar" class="nav-nav-link"
+            ><img src="../billeder/blad_firkant.svg" alt="blad" />Efterår</a
+          >
+          <a href="season.html?seasons=vinter" class="nav-nav-link"
+            ><img src="../billeder/snefnug_firkant.svg" alt="snefnug" />
+            Vinter</a
+          >
+        </div>
+      </nav>
+    </header>
       <main>
         <h2>Bær på buske og træer</h2>
         <p>
@@ -101,11 +100,22 @@
       </section>
       </main>
     
-    <footer>
-      <p>Underside udarbejdet af</p>
-      <p>Ellen, Janus, Kamilla, Krestine & Mathilde</p>
-      <p>2. semester Multimediedesign KEA</p>
-      <p>2023</p>
+      <footer>
+        <div class="footer-left">
+          <p>Underside udarbejdet af</p>
+          <p>Ellen, Janus, Kamilla, Krestine & Mathilde</p>
+          <p>2. semester - Multimediedesign KEA</p>
+          <p>2023</p>
+        </div>
+        <div class="footer-right">
+          <form name="form" action="" id="form">
+            <label for="input" class="input-label">Spørgsmål? </label>  
+            <input type="text" name="input" id="input" placeholder="Dit spørgsmål..">
+            <label class="input-label" for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Din email..">
+             <input type="submit" value="Send">
+          </form>
+        </div> 
     </footer>
   </body>
 </html>
