@@ -1,14 +1,41 @@
-
+.season-content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+.season-content-left {
+   padding: 5%;
+}
+.season-content-right {
+   padding: 5%;
+}
 
 
  .ingrediens-box {
-            border: 2px solid #654C13;
-         border-radius: 20px;
-         padding-bottom: 40px;
-            margin: 10px;
-            display: inline-block;
-            cursor: pointer;
-        }
+      background-color: rgba(234, 157, 80, 0.05);
+
+      border-radius: 20px;
+      padding: 5%;
+      padding-bottom: 40px;
+      margin: 10px;
+      display: inline-block;
+}
+.ingrediens-text-box {
+   margin-top: 5%;
+   border-radius: 18px;
+   padding: 7%;
+   background-color: #eddbb677;
+}
+.ingrediens-text-box h3 {
+   margin: 0;
+}
+.ingrediens-text-box a {
+   text-decoration: none;
+}
+.ingrediens-text {
+   margin: 5% 0 10% 0;
+}
+
  img {
     width: 100%;
     height: auto;
@@ -16,16 +43,18 @@
  }
 
  .knap {
-    background-color: #EDDCB6;
-    color: #654C13;
+   margin: 5px;
+    background-color: #654C13;
+    color: #EDDCB6;
     padding: 10px 20px;
     border-radius: 12px;
     cursor: pointer;
-    margin-top: 30px;
+    transition: all 200ms ease;
+
  }
 
  .knap:hover {
-    background-color: #654C13;
+    background-color: #3e2f0c;
     color: #EDDCB6;
  }
 
