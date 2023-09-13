@@ -17,17 +17,35 @@ fetch(url+"/rest/v1/dataset" + urlEndFull,{
     .then(res=>res.json())
     .then(showData);
 
+
 //loop gennem items
 function showData(items) {
     console.log(items);
     items.forEach(showItem);
-    
 }
+
+
 
 
  function showItem(item){
     console.log("item");
-    const template = document.querySelector("template").content;
+    //generate main content 
+    //tilføjet en boolean i databasen, for at sørge for at det ikk printes 3 gange
+    if(item.print_text_check){
+    console.log(item.aarstid_text);
+    const contentTemplate = document.querySelector("#season-text").content;
+    const contentCopy = contentTemplate.cloneNode(true);
+    contentCopy.querySelector(".season-text-p").innerHTML = item.aarstid_text;
+  
+    const contentParent = document.querySelector(".season-content");
+    contentParent.appendChild(contentCopy);
+    }
+    
+    
+
+        
+    //generate cards
+    const template = document.querySelector("#card").content;
     const copy = template.cloneNode(true);
     copy.querySelector(".ingrediens-title").textContent = item.title;
     copy.querySelector(".ingrediens-img").src = item.profile_image_src;
