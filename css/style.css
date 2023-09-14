@@ -33,6 +33,9 @@ h3 {
    color: #654C13;
 }
 /*Header*/
+@media (min-width: 768px) {
+  
+
 header {
   width: 100%;
   height: 15vh;
@@ -88,7 +91,7 @@ header {
   transition: all 200ms ease;
   filter: saturate(20%);
 }
-
+}
 /*Footer*/
 footer {
   min-height: 25vh;
