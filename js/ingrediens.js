@@ -23,7 +23,7 @@ function showData(items) {
     items.forEach(showItem);
     
 }
-//highlight nav bar - sorry hvem end der skal læse
+//highlight nav bar udfra season - sorry hvem end der skal læse
 function checkSeason(season){
     if (season == "foraar") {
         document.querySelector("#navblomst").style.filter = "saturate(100%)";
