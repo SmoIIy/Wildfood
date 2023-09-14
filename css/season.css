@@ -1,68 +1,93 @@
 .season-content {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .season-content-left {
-   padding: 5%;
+  padding: 5%;
 }
 .season-content-right {
-   padding: 10%;
+  padding: 10%;
 }
 
+.ingrediens-box {
+  background-color: rgba(234, 157, 80, 0.05);
 
- .ingrediens-box {
-      background-color: rgba(234, 157, 80, 0.05);
-
-      border-radius: 20px;
-      padding: 5%;
-      padding-bottom: 40px;
-      margin: 10px;
-      display: inline-block;
+  border-radius: 20px;
+  padding: 5%;
+  padding-bottom: 40px;
+  margin: 10px;
+  display: inline-block;
 }
 .ingrediens-text-box {
-   margin-top: 5%;
-   border-radius: 18px;
-   padding: 7%;
-   background-color: #eddbb677;
+  margin-top: 5%;
+  border-radius: 18px;
+  padding: 7%;
+  background-color: #eddbb677;
 }
 .ingrediens-text-box h3 {
-   margin: 0;
+  margin: 0;
 }
 .ingrediens-text-box a {
-   text-decoration: none;
+  text-decoration: none;
 }
 .ingrediens-text {
-   margin: 5% 0 10% 0;
-
+  margin: 5% 0 10% 0;
 }
 
- img {
-    width: 100%;
-    height: auto;
-    border-radius: 18px;
- }
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
 
- .ingrediens-knap {
-   margin: 5px;
-    background-color: #654C13;
-    color: #EDDCB6;
-    padding: 10px 20px;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 200ms ease;
+.ingrediens-knap {
+  margin: 5px;
+  background-color: #654c13;
+  color: #eddcb6;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
 
- }
-
- .ingrediens-knap:hover {
-    background-color: #3e2f0c;
-    color: #EDDCB6;
- }
+.ingrediens-knap:hover {
+  background-color: #3e2f0c;
+  color: #eddcb6;
+}
 
 /*** Grid ***/
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 800px) {
+  h1 {
+    text-align: center;
+    font-size: 5.5vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  .season-content {
+    display: block;
+  }
+  .season-content-right {
+    display: none;
+  }
+  .grid-container {
+    display: block;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  footer {
+    display: block;
+  }
+  footer p {
+    font-size: 2.8vw;
+    line-height: 1;
+  }
 }
