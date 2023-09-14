@@ -7,19 +7,38 @@
     <link rel="icon" type="image/png" href="billeder/vm_favicon.png" />
     <link rel="stylesheet" href="css/kategori.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/burgermenu.js"></script>
     <script defer src="js/kategori.js"></script>
   </head>
   <body>
     
       <header>
+        <!-- Nav desktop -->
         <nav class="header-navbar">
           <div class="nav-logo-container">
             <a href="kategori.html" class="nav-logo">
               <img src="billeder/vm_logo.webp" alt="Home" />
             </a>
           </div>
-
         </nav>
+        <!-- Nav mobile -->
+        <nav class="mobile-nav-container">
+          <div class="nav-logo-container">
+            <a href="kategori.html" class="nav-logo">
+              <img src="billeder/vm_logo.webp" alt="Home" />
+            </a>
+          </div>
+          <div class="hamburger">
+              <div class="bar"></div>
+          </div>
+          <div class="mobile-nav">
+              <a href="index.html">Forside</a>
+              <a href="season.html?seasons=foraar">Forår</a>
+              <a href="season.html?seasons=sommer">Sommer</a>
+              <a href="season.html?seasons=efteraar">Efterår</a>
+              <a href="season.html?seasons=vinter">Vinter</a>
+          </div>
+      </nav>
       </header>
       <main>
         <section class="title">
