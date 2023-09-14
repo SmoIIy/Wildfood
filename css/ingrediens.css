@@ -1,51 +1,92 @@
 .ingrediens-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    border-radius: 18px;
- }
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
 
- .ingrediens-content-left {
-    padding: 5%;
- }
- .ingrediens-content-right {
-    padding: 5%;
- }
- 
- .opskrifter {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
- }
- .opskrift-card {
-    padding: 5%;
-    height: 55vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
- }
- .opskrift-card h2 {
-    font-size: 1vw
- }
- .opskrift-link {
-    width: 50%;
-    margin-top: 10px;
-    text-decoration: none;
-    background-color: #654C13;
-    color: #eddcb6;
-    padding: 10px;
-    border-radius: 10px;
+.ingrediens-content-left {
+  padding: 5%;
+}
+.ingrediens-content-right {
+  padding: 10%;
+}
+
+.opskrifter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-top: 40px;
+}
+.opskrift-card {
+  padding: 5%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.opskrift-card h2 {
+  font-size: 1vw;
+}
+.opskrift-link {
+  width: 50%;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #654c13;
+  color: #eddcb6;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 400ms ease;
+}
+.opskrift-link:hover {
+  width: 95%;
+  background-color: #3e2f0c;
+}
+.ingrediens-text h2 {
+  font-weight: 800;
+  font-size: 2.5vw;
+}
+.ingrediens-text h3 {
+  font-size: 1.2vw;
+}
+#opskrift-title-1,
+#opskrift-title-2,
+#opskrift-title-3 {
+  font-size: 1.2vw;
+  font-weight: 800;
+}
+@media (max-width: 800px) {
+  .ingrediens-text h2 {
+    font-size: 5.5vw;
     text-align: center;
-    transition: all 400ms ease;
- }
- .opskrift-link:hover {
-    width: 95%;
-    background-color: #3e2f0c;
- }
- 
+    font-weight: 800;
+  }
+  .ingrediens-text h3 {
+    font-size: 4vw;
+  }
+  .ingrediens-content {
+    display: block;
+  }
+  .ingrediens-content-right {
+    display: none;
+  }
+  .opskrifter {
+    display: block;
+  }
+  #opskrift-title-1,
+  #opskrift-title-2,
+  #opskrift-title-3 {
+    font-size: 3.5vw;
+    font-weight: 800;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+}

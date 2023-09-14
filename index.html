@@ -11,66 +11,67 @@
     <script defer src="js/kategori.js"></script>
   </head>
   <body>
-    
-      <header>
-        <!-- Nav desktop -->
-        <nav class="header-navbar">
-          <div class="nav-logo-container">
-            <a href="index.html" class="nav-logo">
-              <img src="billeder/vm_logo.webp" alt="Home" />
-            </a>
-          </div>
-        </nav>
-        <!-- Nav mobile -->
-        <nav class="mobile-nav-container">
-          <div class="nav-logo-container">
-            <a href="index.html" class="nav-logo">
-              <img src="billeder/vm_logo.webp" alt="Home" />
-            </a>
-          </div>
-          <div class="hamburger">
-              <div class="bar"></div>
-          </div>
-          <div class="mobile-nav">
-              <a href="index.html">Forside</a>
-              <a href="season.html?seasons=foraar">Forår</a>
-              <a href="season.html?seasons=sommer">Sommer</a>
-              <a href="season.html?seasons=efteraar">Efterår</a>
-              <a href="season.html?seasons=vinter">Vinter</a>
-          </div>
+    <header>
+      <!-- Nav desktop -->
+      <nav class="header-navbar">
+        <div class="nav-logo-container">
+          <a href="index.html" class="nav-logo">
+            <img src="billeder/vm_logo.webp" alt="Home" />
+          </a>
+        </div>
       </nav>
-      </header>
-      <main>
-        <section class="title">
-          <h1>Årstider</h1>
-        <h2>Klik ind på en årstid, og find ud af hvad for noget vildt mad, der hører til.</h2>
-        </section>
-        
+      <!-- Nav mobile -->
+      <nav class="mobile-nav-container">
+        <div class="nav-logo-container">
+          <a href="index.html" class="nav-logo">
+            <img src="billeder/vm_logo.webp" alt="Home" />
+          </a>
+        </div>
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <div class="mobile-nav">
+          <a href="index.html">Forside</a>
+          <a href="season.html?seasons=foraar">Forår</a>
+          <a href="season.html?seasons=sommer">Sommer</a>
+          <a href="season.html?seasons=efteraar">Efterår</a>
+          <a href="season.html?seasons=vinter">Vinter</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="title">
+        <h1>Årstider</h1>
+        <h2>
+          Klik ind på en årstid, og find ud af hvad for noget vildt mad, der
+          hører til.
+        </h2>
+      </section>
+      <section class="wheel">
         <div class="corner-container">
           <a href="season.html?seasons=foraar" class="corner">
-              <div class="corner-image"></div>
-              <div class="corner-overlay"></div>
-              <h2 class="corner-content">Forår</h2>
+            <div class="corner-image"></div>
+            <div class="corner-overlay"></div>
+            <h2 class="corner-content">Forår</h2>
           </a>
           <a href="season.html?seasons=sommer" class="corner">
-              <div class="corner-image"></div>
-              <div class="corner-overlay"></div>
-              <h2 class="corner-content">Sommer</h2>
+            <div class="corner-image"></div>
+            <div class="corner-overlay"></div>
+            <h2 class="corner-content">Sommer</h2>
           </a>
           <a href="season.html?seasons=efteraar" class="corner">
-              <div class="corner-image"></div>
-              <div class="corner-overlay"></div>
-              <h2 class="corner-content">Efterår</h2>
+            <div class="corner-image"></div>
+            <div class="corner-overlay"></div>
+            <h2 class="corner-content">Efterår</h2>
           </a>
           <a href="season.html?seasons=vinter" class="corner">
-              <div class="corner-image"></div>
-              <div class="corner-overlay"></div>
-              <h2 class="corner-content">Vinter</h2>
+            <div class="corner-image"></div>
+            <div class="corner-overlay"></div>
+            <h2 class="corner-content">Vinter</h2>
           </a>
-      </div> 
-
-
-      </main>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <div class="footer-left">
@@ -81,13 +82,23 @@
       </div>
       <div class="footer-right">
         <form name="form" action="" id="form">
-          <label for="input" class="input-label">Spørgsmål? </label>  
-          <input type="text" name="input" id="input" placeholder="Dit spørgsmål..">
+          <label for="input" class="input-label">Spørgsmål? </label>
+          <input
+            type="text"
+            name="input"
+            id="input"
+            placeholder="Dit spørgsmål.."
+          />
           <label class="input-label" for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Din email..">
-           <input type="submit" value="Send">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Din email.."
+          />
+          <input type="submit" value="Send" />
         </form>
-      </div> 
-  </footer>
+      </div>
+    </footer>
   </body>
 </html>

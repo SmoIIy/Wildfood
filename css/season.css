@@ -10,6 +10,14 @@
   padding: 10%;
 }
 
+.season-text-p h2 {
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+.ingrediens-title {
+  font-size: 1.2vw;
+}
+
 .ingrediens-box {
   background-color: rgba(234, 157, 80, 0.05);
 
@@ -70,6 +78,7 @@ img {
   }
   h2 {
     font-size: 4vw;
+    font-weight: 800;
   }
   .season-content {
     display: block;
@@ -83,11 +92,10 @@ img {
   h3 {
     font-size: 4vw;
   }
-  footer {
-    display: block;
+  .season-text-p h2 {
+    font-size: 4vw;
   }
-  footer p {
-    font-size: 2.8vw;
-    line-height: 1;
+  .ingrediens-title {
+    font-size: 4vw;
   }
 }
